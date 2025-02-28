@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta Charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0" >
+        <title>
+            Table Creation
+        </title>
+        <style>
+           table, th,td{
+                border:0.5px dashed white;
+                border-collapse: collapse;
+                color: aliceblue;
+            }
+            tr:nth-child(odd){
+                background-color: blue;
+            }
+            tr:nth-child(even){
+                background-color: brown;
+            }
+            th:nth-child(even),td:nth-child(even){
+                background-color: rgb(247, 243, 2);
+            }
+            tr:hover{
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Employee Information</h1>
+        <table style="width:100%">
+            <tr>
+                <th>Employee Name</th>
+                <th>Employee Id</th>
+                <th>Employee Salary</th>
+                <th colspan="2">Employee Phno</th>
+            </tr>
+            <tr>
+                <td>Priya</td>
+                <td>761</td>
+                <td>25,000</td>
+                <td>123</td>
+                <td>345</td>
+            </tr>
+            <tr>
+                <td>Ansh</td>
+                <td>762</td>
+                <td>30,000</td>
+                <td>456</td>
+                <td>567</td>
+            </tr>
+            <tr>
+                <td>Mayank</td>
+                <td>763</td>
+                <td>50,000</td>
+                <td>678</td>
+                <td>789</td>
+            </tr>
+        </table>
+        <h1 style="text-align: center;  color: rgb(243, 7, 105);">Table-2
+            <p>Student Table</p>
+        </h1>
+        <table style="width: 100%;">
+            <tr>
+                <th>Student Name</th>
+                <td>Akash</td>
+                <td>Tara</td>
+                <td>Bela</td>
+                <td>Mahir</td>
+                <td>Uv</td>
+            </tr>
+            <tr>
+                <th rowspan="3">
+                    ID
+                </th>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>Marks</th>
+                <td>100/97</td>
+                <td>100/99</td>
+                <td>100/100</td>
+                <td>100/100</td>
+                <td>100/95</td>
+            </tr>
+
+        </table>
+    </body>
+</html>
